@@ -2,20 +2,21 @@
 This project provides a comprehensive analysis of e-commerce sales performance, focusing on revenue generation, profitability trends, and customer purchasing behavior. The interactive Power BI dashboard is designed to help stakeholders make data-driven decisions.
 his project provides a comprehensive analysis of e-commerce sales performance, focusing on revenue generation, profitability trends, and customer purchasing behavior. The interactive Power BI dashboard is designed to help stakeholders make data-driven decisions by identifying high-performing regions, seasonal profit fluctuations, and preferred payment methods.
 
-View the Dashboard:
+# View the Dashboard:
 <img width="1032" height="685" alt="image" src="https://github.com/user-attachments/assets/b6a62c1b-6ac0-4872-a7eb-cbdff729892b" />
 
 
-📊 Key Business Metrics (KPIs)
+# 📊 Key Business Metrics (KPIs)
 At a glance, the dashboard tracks the following overall performance indicators:
 
-Total Sales Amount: 438K
+Total Sales Amount: 438KM<img width="1032" height="685" alt="Powerbi" src="https://github.com/user-attachments/assets/3cc46a3c-37bf-4e6f-8799-d7f62b0a255b" />
+
 
 Total Profit: 37K
 
 Total Quantity Sold: 6K
 
-💡 Key Insights & Analytics
+# 💡 Key Insights & Analytics
 The analysis uncovers several critical operational and sales insights:
 
 Seasonal Profitability: The Sum of Profit by Month chart reveals significant profit spikes during the end of the year (October and December). Conversely, the business operated at a loss during mid-year months (May, July, and August), indicating a need to investigate operational costs or launch targeted summer promotions.
@@ -24,16 +25,16 @@ Payment Method Preferences: Cash on Delivery (COD) is the dominant payment mode,
 
 Geographic Performance: Sales are heavily concentrated in specific regions, with Maharashtra and Madhya Pradesh driving the highest total transaction amounts.
 
-Category & Product Performance:
+# Category & Product Performance:
 
 Volume vs. Profit: While Clothing drives the massive majority of the sales volume (63% of quantity sold), the Profit by Sub-Category chart shows that tech and furniture items like Printers and Bookcases are actually the most profitable segments.
 
-🛠️ Technical Stack
+@ 🛠️ Technical Stack
 Tool: Power BI
 
 Domain: E-commerce / Business Intelligence
 
-Techniques Used:
+# Techniques Used:
 
 Data Extraction, Transformation, and Loading (ETL) via Power Query.
 
@@ -42,3 +43,16 @@ Data Modeling to connect sales, customer, and product tables.
 DAX (Data Analysis Expressions) for creating custom measures and KPIs.
 
 Advanced Data Visualization with an optimized dark-mode UI for readability.
+# 📂 Repository Contents
+Ecommerce_Dashboard.pbix: The raw Power BI project file containing the data model and interactive visualizations.
+
+Dashboard_Screenshot.png: A high-resolution capture of the dashboard interface.
+
+Dashboard_Export.pdf: A PDF export of the report for quick viewing.
+
+# 🚀 How to Use
+Download the .pbix file from this repository.
+
+Open the file using Power BI Desktop.
+
+Interact with the dashboard by clicking on specific states, payment modes, or categories to cross-filter the data and explore specific segments.
